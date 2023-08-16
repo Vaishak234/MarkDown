@@ -1,0 +1,30 @@
+.profilePosts{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    border-top: 1px rgba(255, 255, 255, 0.336) solid;
+
+}
+.profilePosts__posts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.profilePosts__posts p{
+    font-weight: 800;
+}
+.noPostTag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    gap: 30px;
+}
+.noPostTag .icon{
+    scale: 3;
+    color: rgba(255, 255, 255, 0.922);
+}

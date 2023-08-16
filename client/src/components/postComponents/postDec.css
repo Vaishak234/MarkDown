@@ -1,0 +1,8 @@
+.postDec{
+    display: flex;
+    gap: 6px;
+    align-items: baseline;
+}
+.postDec .postDec__username{
+      font-family: "Lucida Console", "Courier New", monospace;
+}

@@ -1,0 +1,25 @@
+.postButton{
+    display: flex;
+    padding: 14px 0px;
+    justify-content: space-between;
+}
+.postButton .left{
+    display: flex;
+    gap: 20px;
+}
+.postButton .left * ,.postButton .right *{
+    transform: scale(1.05);
+}
+.postButton .left *:hover ,.postButton .right *:hover{
+   color: rgba(255, 255, 255, 0.516);
+}
+.postButtonDec {
+    padding-bottom: 8px ;
+}
+.postButtonDec .noOfLikes{
+    font-size: 14px;
+    font-weight: 600;
+}
+.postButtonDec .noOfLikes span{
+    margin-right: 4px;
+}

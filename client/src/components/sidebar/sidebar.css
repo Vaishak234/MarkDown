@@ -1,0 +1,123 @@
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.sidebarContainer{
+    width: 250px;
+}
+.sidebar{
+    width: 250px;
+    padding:25px 15px;
+    height: 100vh;
+    position: sticky;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: width .4s ease-in;
+    border-right: 1px solid rgba(255, 255, 255, 0.447);
+  
+}
+.sidebar__title{
+    margin-bottom: 30px;
+    margin-left:12px;
+}
+.sidebar__more{
+    position: relative;
+    top: 80px;
+}
+.sidebar__title_icon{
+    display: none;
+    margin-left:12px;
+    margin-bottom: 30px;
+}
+.sidebar__nav{
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+.sidebar__search{
+    position: fixed;
+    top: 0;
+    left: -360px;
+    transition:left .4s ease-in;
+    z-index: 3;
+}
+.sidebar__notify{
+    position: fixed;
+    top: 0;
+    left: -360px;
+    transition:left .4s ease-in;
+    z-index: 3;
+}
+.sidebar__more{
+    position: relative;
+}
+.sidebar__newPost{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 98.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.707);
+    z-index: 2;
+}
+@media (max-width:1220px){
+    .sidebarContainer{
+    width: 80px;
+}
+    .sidebar{
+        width: 80px;
+        transition: width 0s ease-in; 
+    }
+   .sidebar__title{
+        display: none;
+    }
+    .sidebar__title_icon{
+        display: block;
+    }
+}
+
+@media (max-width:900px){
+     .sidebarContainer{
+    width: 0px;
+}
+    .sidebar{
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.464);
+        display: flex;
+        height: 60px;
+        padding: 5px 6px;
+        position: fixed;
+        top: calc(100% - 60px);
+        z-index: 99999999;
+        background-color: black;
+        justify-content: space-between;
+        transition: width 0s ease-in;
+
+    }
+    .sidebar__nav{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sidebar__more{
+        display: none;
+    }
+    .sidebar__title{
+        display: none;
+    }
+    .sidebar__title_icon{
+        display: none;
+    }
+    .sidebar__notify ,.sidebar__search{
+        display: none;
+    }
+   
+  
+}

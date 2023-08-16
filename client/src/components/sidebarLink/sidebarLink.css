@@ -1,0 +1,31 @@
+.sidebarLink{
+    display: flex;
+    padding: 15px 12px;
+    gap: 28px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.sidebarLink .icons *{
+    transform: scale(1.07);
+}
+.sidebarLink:hover{
+    background-color: rgba(255, 255, 255, 0.236);
+}
+.sidebarLink:hover .icons{
+   transform: scale(1.09);
+}
+
+@media (max-width:1220px){
+    .sidebarLink__title{
+        display: none;
+    }
+    
+   
+}
+@media (max-width:900px){
+    .hiddenOnMobile{
+        display: none;
+    }
+   
+}

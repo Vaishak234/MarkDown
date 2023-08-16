@@ -1,0 +1,25 @@
+.profilePostImage{
+    width: 310px;
+    height: 360px;
+    background-color: blueviolet;
+}
+.profilePostImage img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+@media (max-width:1200px) {
+    .profilePostImage{
+        max-width: 100%;
+        width: 290px;
+        height: 300px;
+    }
+}
+@media (max-width:1000px) {
+    .profilePostImage{
+        width: 30%;
+        height: 100%;
+    }
+}

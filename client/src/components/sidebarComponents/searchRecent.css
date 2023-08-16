@@ -1,0 +1,18 @@
+.searchRecent{
+    width: 100%;
+    padding: 10px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 6px;
+}
+
+.searchRecent:hover{
+    background-color: rgb(42, 35, 35);
+}
+.searchRecent__left{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

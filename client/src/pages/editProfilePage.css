@@ -1,0 +1,18 @@
+.editProfilePage__container{
+    display: flex;
+}
+.editProfilePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width:900px){
+    .home{
+        width: 100%;
+    }
+    
+}

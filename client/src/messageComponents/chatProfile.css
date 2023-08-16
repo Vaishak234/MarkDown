@@ -1,0 +1,17 @@
+.chatProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 12px;
+}
+.chatProfile .username{
+    margin-top: 20px;
+}
+.chatProfile__btn{
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: rgb(97, 84, 84);
+    color: white;
+    margin-top: 10px;
+}

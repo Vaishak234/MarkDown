@@ -1,0 +1,28 @@
+.postTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 2px;
+}
+.postTitle .postTitle__left{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+.postTitle__left .username{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.postTitle__left .timestamp{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.447);
+}
+.svg__icon {
+  transform: scale(1.5);
+}
+.postTitle__right .follow__button{
+    padding: 4px 14px;
+    background-color: rgb(97, 84, 84);
+    border-radius: 4px;
+    border: none;
+    color: white;
+}

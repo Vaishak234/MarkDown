@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 90%;
+}
+
+@media (max-width:900px){
+    .home{
+        width: 100%;
+    }
+    
+}

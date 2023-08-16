@@ -1,0 +1,30 @@
+.commentMoreModal{
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.611);
+    color:white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeIcon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.commentMoreModal__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(75, 63, 63);
+    border-radius: 14px;
+}

@@ -1,0 +1,32 @@
+.exploreContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.explore{
+    width: 80%;
+    max-width: 950px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0px 20px;
+    height: min-content;
+
+}
+@media(max-width:1100px){
+    .explore{
+      width: 90%;
+    }
+}
+@media(max-width:900px){
+    .explore{
+        width: 100%;
+        padding: 0;
+        gap: 2px;
+    }
+    .exploreContainer{
+        padding-top: 100px;
+        padding-left: 3%;
+
+    }
+}

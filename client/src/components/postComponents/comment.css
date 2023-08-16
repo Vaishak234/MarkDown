@@ -1,0 +1,29 @@
+.commentContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+    padding-right: 30px;
+}
+.comment{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.comment__right {
+    display: flex;
+    flex-direction: column;
+}
+.comment__right .comment__box{
+    display: flex;
+    gap: 15px;
+}
+.comment__right .timeStamp{
+    font-size: 13px;
+    color:rgb(104, 95, 95);
+    font-weight: 600;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}

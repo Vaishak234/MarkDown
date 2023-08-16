@@ -1,0 +1,73 @@
+.selectPost{
+    width: 700px;
+    background-color: rgb(46, 41, 41);
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+}
+.selectPost__title{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.321);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.selectPost__title h4{
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.selectPost__title button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.selectPost__content{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+}
+.selectPost__content_dec{
+    display: flex;
+    flex-direction: column;
+     width: 700px;
+    padding-left: 15px;
+}
+.selectPost__content_dec .profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.selectPost__content_dec .profile img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.selectPost__content_dec textarea{
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.341);
+    font-size: 16px;
+    resize: none;
+    border: none;
+    outline: none;
+    margin-top: -20px;
+
+}
+
+@media (max-width:900px){
+    .selectPost__content{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+.selectPost__content_dec{
+    display: flex;
+    flex-direction: column;
+     width: 400px;
+    padding-left: 15px;
+}
+.selectPost{
+    width: 400px;
+}
+}

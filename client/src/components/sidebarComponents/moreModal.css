@@ -1,0 +1,9 @@
+.moreModal{
+    width: 200px;
+    background: rgb(73, 70, 70);
+    padding: 9px 30px;
+    position: absolute;
+    top:-40px;
+    border-radius: 6px;
+   
+}

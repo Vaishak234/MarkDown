@@ -1,0 +1,7 @@
+.chatSection{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 80vh;
+    padding: 14px;
+}

@@ -1,0 +1,27 @@
+.showMore{
+    width: 300px;
+    padding: 16px 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(77, 64, 64);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.showMore p{
+    border-bottom: 1px solid rgb(88, 81, 81);
+    padding-bottom: 10px;
+     width: 100%;
+     margin: auto;
+     text-align: center;
+}
+.showMore:last-child {
+    border-bottom: 0px;
+}
