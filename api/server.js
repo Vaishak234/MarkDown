@@ -34,11 +34,10 @@ app.use(session({
 app.use(passport.initialize())
 app.use(passport.session())
 
-// app.use((req, res, next) => {
-//    console.log('cookies : ', req.cookies);
-//    console.log('user : ',req.user);
-//    next()
-// })
+app.use((req, res, next) => {
+   console.log('user : ',req.user);
+   next()
+})
 
 app.use(logger('dev'));
 app.use(express.json());
