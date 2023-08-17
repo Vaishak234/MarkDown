@@ -33,7 +33,7 @@ const login = asyncHandler(async (req, res,next) => {
         return res.status(500).json(err);
       }
       user.password = null
-      
+      res.cookie('name',"vaishakh")
       return res.status(200).json(user);
     }); 
   })(req, res, next);
