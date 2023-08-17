@@ -21,13 +21,17 @@ require('./config/passport')(passport)
 const app = express();
 const port = process.env.PORT || 4000
 
+app.use("*",cors({origin:true,credentials:true}))
+
 app.use(session({
    secret: process.env.SESSION_SECRET,
    resave: true,
    saveUninitialized:true,
    store: store,
    cookie: {
-      maxAge:24*60 *60*1000*7
+      maxAge:24*60 *60*1000*7,
+      secure : false, 
+      httpOnly: false, 
    }
 }))
 
@@ -43,7 +47,6 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static('public'))
-app.use("*",cors({origin:true,credentials:true}))
 app.use(cookieParser())
 app.use(errorHandler)
 
